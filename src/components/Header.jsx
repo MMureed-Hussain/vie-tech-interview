@@ -19,27 +19,26 @@ export const Header = () => {
           >
             <div className="me-5">
               <span className="text-light">
-                9:30am-6-30pm Mon-Sun | +9230001234567 | DHA Lahore
+                <i class="fa fa-clock-o m-1"></i> 9:30am-6-30pm Mon-Sun |
+                <i class="fa fa-phone m-1 "></i>+9230001234567 |
+                <i class="fa-solid fa-location-dot mx-1"></i>DHA Lahore
               </span>
             </div>
             <div className="">
               <Link to="" className="text-white me-4">
-                <i className="fab fa-facebook-f"></i>
+                <i class="fab fa-facebook-messenger "></i>
               </Link>
               <Link to="" className="text-white me-4">
                 <i className="fab fa-twitter"></i>
               </Link>
               <Link to="" className="text-white me-4">
-                <i className="fab fa-google"></i>
+              <i class="fa-brands fa-vimeo-v"></i>
               </Link>
               <Link to="" className="text-white me-4">
-                <i className="fab fa-instagram"></i>
+                <i className="fab fa-skype"></i>
               </Link>
               <Link to="" className="text-white me-4">
-                <i className="fab fa-linkedin"></i>
-              </Link>
-              <Link to="" className="text-white me-4">
-                <i className="fab fa-github"></i>
+              <i class="fa-solid fa-wifi"></i>
               </Link>
             </div>
           </Nav>
