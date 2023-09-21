@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <>
-      <br />
       <Navbar data-bs-theme="dark" style={{ backgroundColor: "#9f1094" }}>
         <Container>
           <Nav
